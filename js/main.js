@@ -15,6 +15,17 @@
                 check=false;
             }
         }
+        if(check){
+                
+            swal({
+            title: "Congratulations!",
+            text: "You are now connect with Portablelib",
+            type: "success",
+            }, function(){ 
+                document.getElementById('form').submit()
+            })
+        check=true;
+    }
 
         return check;
     });
