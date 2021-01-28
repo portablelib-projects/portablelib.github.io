@@ -47,6 +47,7 @@ Primary use:
   width: 100%;
 }
 
+
 /*------------------------------------------------------------------
 [ Input ]*/
 
@@ -229,6 +230,13 @@ input.input100 {
 
 /*//////////////////////////////////////////////////////////////////
 [ M-Text 16 - 25 ]*/
+
+.m1-txt0 {
+  font-family: Poppins-Regular;
+  font-size: 10px;
+  line-height: 1.5;
+  color: #555555;
+}
 
 .m1-txt1 {
   font-family: Poppins-Regular;
@@ -444,6 +452,14 @@ input.input100 {
 }
 .wrap-pic1 img {
   max-width: 100%;
+}
+
+.wrap-img {
+  width: 7%;
+}
+
+.wrap-img1 {
+  width: 5%;
 }
 
 
