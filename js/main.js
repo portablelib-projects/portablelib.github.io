@@ -1,7 +1,11 @@
 
 (function ($) {
     "use strict";
-
+    $(".normalfeather").attr('title', 'Normal Feather');
+    $(".studentfeather").attr('title', 'Student Feather');
+    $(".premiumfeather").attr('title', 'Premium Feather');
+    $(".ultrapremiumfeather").attr('title', 'Ultra premium Feather');
+    $(".partnerfeather").attr('title', 'Partner Feather');
     /*==================================================================
     [ Validate ]*/
     var input = $('.validate-input .input100');
