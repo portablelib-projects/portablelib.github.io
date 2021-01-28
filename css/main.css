@@ -46,6 +46,25 @@ Primary use:
 .contact100-form {
   width: 100%;
 }
+.feather-block{
+  padding: 5px;
+}
+
+.feather-block div{
+  /* To correctly align image, regardless of content height: */
+  vertical-align: top;
+  display: inline-block;
+  /* To horizontally center images and caption */
+  text-align: center;
+  /* The width of the container also implies margin around the images. */
+  width: 80px;
+  padding: 10px;
+}
+
+
+.feather-block div span{
+  display: block;
+}
 
 
 /*------------------------------------------------------------------
@@ -455,11 +474,11 @@ input.input100 {
 }
 
 .wrap-img {
-  width: 7%;
+  width: 40%;
 }
 
 .wrap-img1 {
-  width: 5%;
+  width: 25%;
 }
 
 
