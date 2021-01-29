@@ -1,11 +1,30 @@
 
 (function ($) {
     "use strict";
+
     $(".normalfeather").attr('title', 'Normal Feather');
     $(".studentfeather").attr('title', 'Student Feather');
     $(".premiumfeather").attr('title', 'Premium Feather');
     $(".ultrapremiumfeather").attr('title', 'Ultra premium Feather');
     $(".partnerfeather").attr('title', 'Partner Feather');
+    
+    $(document).ready(() => {
+        
+
+        $(".btn .fa-play-circle-o").on('click', () => {
+            $(".fa-play-circle-o").hide();
+            $(".fa-pause-circle-o").fadeIn();
+            $("#bgm")[0].play();
+        });
+
+        $(".btn .fa-pause-circle-o").on('click', () => {
+            $(".fa-pause-circle-o").hide();
+            $(".fa-play-circle-o").fadeIn();
+            $("#bgm")[0].pause();
+        });
+
+
+    })
     /*==================================================================
     [ Validate ]*/
     var input = $('.validate-input .input100');

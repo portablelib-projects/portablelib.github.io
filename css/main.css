@@ -481,6 +481,28 @@ input.input100 {
   width: 35%;
 }
 
+.fa-pause-circle-o{
+  display: none;
+}
+
+.fa{
+  color: #f3f3f3;
+  font-size: 30px;
+}
+
+.btn{
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  background-color: transparent;
+}
+
+.btn:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
 
 
 
