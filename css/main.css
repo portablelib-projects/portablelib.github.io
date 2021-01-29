@@ -50,7 +50,7 @@ Primary use:
   padding: 5px;
 }
 
-.feather-block div{
+.feather-block a div{
   /* To correctly align image, regardless of content height: */
   vertical-align: top;
   display: inline-block;
@@ -62,7 +62,7 @@ Primary use:
 }
 
 
-.feather-block div span{
+.feather-block a div span{
   display: block;
 }
 
